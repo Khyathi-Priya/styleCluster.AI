@@ -166,7 +166,7 @@ sample_images = sorted(os.listdir(SAMPLE_PATH))
 
 for image_name in sample_images:
 
-    image_path = os.path.join(SAMPLE_PATH, image_name)
+    image_path = f"{SAMPLE_PATH}/{image_name}"
 
     # Read image using OpenCV
     image = cv2.imread(image_path)
@@ -189,7 +189,7 @@ for image_name in sample_images:
 
     processed_images.append(image)
     image_paths.append(image_path)
-)
+
 
 # Convert list to NumPy array
 processed_images = np.array(processed_images)
