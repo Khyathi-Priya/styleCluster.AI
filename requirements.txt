@@ -1,11 +1,11 @@
-numpy
-pandas
-matplotlib
-opencv-python-headless
-scikit-learn
-tensorflow
-pillow
-streamlit
-joblib
-tqdm
-scipy
+   tensorflow-cpu==2.15.0
+   numpy==1.26.4
+   pandas==2.2.2
+   matplotlib==3.8.4
+   opencv-python-headless==4.9.0.80
+   scikit-learn==1.4.2
+   scipy==1.13.0
+   Pillow==10.3.0
+   streamlit==1.32.0
+   joblib==1.4.0
+   tqdm==4.66.2
