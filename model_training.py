@@ -38,10 +38,10 @@ import matplotlib.pyplot as plt
 # ==========================================================
 
 # Original dataset folder
-DATASET_PATH = "dataset/images"
+DATASET_PATH = "Dataset/images"
 
 # Folder that will contain sampled images
-SAMPLE_PATH = "dataset/sample_images"
+SAMPLE_PATH = "Dataset/sample_images"
 
 # Number of images to use
 NUM_IMAGES = 1000
@@ -188,8 +188,7 @@ for image_name in sample_images:
     image = preprocess_input(image)
 
     processed_images.append(image)
-    image_paths.append(
-    os.path.abspath(image_path)
+    image_paths.append(image_path)
 )
 
 # Convert list to NumPy array
